@@ -42,7 +42,21 @@
 
 2. Install the required Python libraries:
     ```bash
-    pip install wikipedia pygame
+    pip install SpeechRecognition
+    pip install pyaudio
+    pip install pyttsx3
+    pip install spacy
+    pip install nltk
+    pip install textblob
+    pip install transformers
+    pip install torch
+    pip install numpy
+    pip install pillow
+    pip install wikipedia-api
+    pip install pygame
+    pip install face_recognition
+    pip install PyGetWindow
+    pip install pyautogui
     ```
 
 ## Usage
