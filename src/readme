@@ -1,0 +1,23 @@
+Initialize each command with Jarvis
+
+sleep : this cmd makes jarvis to sleep and does not execute the recognized cmds in sleep mode
+
+bye or goodbye : this cmd stops jarvis completely. { we need to manually restart Jarvis to initialize again}
+
+wake or wakeup : this cmd wakes up jarvis from sleep mode and start to execute the commands given by users
+
+hello : Jarvis greets back
+
+time : tells the current time
+
+search : search the query in wikipedia
+
+add user (only accessed by Hariprasad) : adds new user to face recognition
+
+remove user (only accessed by Hariprasad) : removes the user face recognitionfrom the database
+
+add command : adds a query with it's response defined by the user
+
+remove command : removes a command that's defined by the users
+
+send email : opens a input field using pygame for precisize inputs. and sends the mail using pyautogui.
