@@ -5,6 +5,7 @@ from EmailSenderApp import EmailSenderUI
 from nlp_integration import NLPIntegration
 from Com_vis import FaceRecognitionModule
 from speech import SpeechRecognition
+import pyautogui as pg
 class JarvisCommands:
     def __init__(self):
         self.commands = {
@@ -25,7 +26,6 @@ class JarvisCommands:
         self.cam = FaceRecognitionModule("src/Images")
         print("Cmd")
 
-
     def identify_command(self, tokens):
         for cmd in self.commands.keys():
             if cmd in tokens:
@@ -33,7 +33,6 @@ class JarvisCommands:
                 break
         if self.cmd not in tokens:
             self.cmd = self.db.get(self.query, "")
-
 
     def execute_command(self, command):
         self.cmd = ""
@@ -129,4 +128,9 @@ class JarvisCommands:
         email_sender.run()
         return "Email sent successfully"
 
-    
+class JarvisMasterCommands(JarvisCommands):
+    def __init__(self):
+        super().__init__()
+
+    def gesture_mode(self):
+        pass

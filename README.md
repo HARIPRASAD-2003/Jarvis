@@ -63,7 +63,7 @@
 
 1. Start Jarvis:
     ```bash
-    python jarvis.py
+    python src/jarvis.py
     ```
 
 2. Issue voice commands and Jarvis will respond accordingly.
