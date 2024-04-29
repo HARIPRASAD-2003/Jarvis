@@ -29,6 +29,7 @@ class Jarvis:
         else:
             self.sr.speak(f"Hello, {self.user_name} sir!")
             self.sr.speak("I am Jarvis, your personal assistant.")
+            
         
 
     def listen_and_recognize(self, state=True):
