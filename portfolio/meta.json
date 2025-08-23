@@ -1,0 +1,69 @@
+{
+  "name": "Jarvis - Personal Assistant",
+  "description": "A Python-based personal assistant that responds to voice commands, executes tasks like Wikipedia search, time, face recognition, email automation, and supports custom commands.",
+  "type": "Public Project",
+  "tags": ["Python", "AI", "Voice Recognition", "Automation"],
+  "roadmap": [
+    "Add more NLP capabilities for natural conversations",
+    "Integrate task scheduling and reminders",
+    "Improve face recognition with deep learning models",
+    "Add GUI for easier interaction",
+    "Enable integration with IoT devices"
+  ],
+  "technologies": [
+    "Python",
+    "SpeechRecognition",
+    "Pyaudio",
+    "Pyttsx3",
+    "NLTK",
+    "spaCy",
+    "Transformers",
+    "Torch",
+    "Face Recognition",
+    "PyAutoGUI",
+    "Pygame"
+  ],
+  "eventImages": [
+    {
+      "title": "Jarvis Voice Command",
+      "description": "Jarvis recognizing and responding to a voice command.",
+      "path": "ss-1.png"
+    },
+    {
+      "title": "Face Recognition",
+      "description": "Demonstration of user authentication with face recognition.",
+      "path": "ss-2.png"
+    }
+  ],
+  "github": "https://github.com/HARIPRASAD-2003/Jarvis",
+  "demoVideos": [
+    {
+      "src": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID",
+      "title": "Jarvis Demo v1",
+      "description": "An early demo of Jarvis responding to basic voice commands."
+    }
+  ],
+  "status": "Ongoing",
+  "features": [
+    "Voice command recognition and response",
+    "Sleep, shutdown, and wakeup modes",
+    "Wikipedia search with summarized results",
+    "Face recognition for user authentication",
+    "Custom command creation and removal",
+    "Email sending with pygame input and pyautogui",
+    "Friendly greetings and time queries"
+  ],
+  "key_learnings": [
+    "Working with speech recognition and text-to-speech in Python",
+    "Implementing NLP with spaCy, NLTK, and Transformers",
+    "Integrating face recognition for authentication",
+    "Handling user-defined custom commands dynamically",
+    "Automating tasks like sending emails using pyautogui and pygame"
+  ],
+  "story": {
+    "origin": "Jarvis began during my school days in 12th grade (2020), when I first learned Python programming. Inspired by Marvel movies, I wondered if Sci-Fi could be brought into reality, and Jarvis became my first step towards engineering a real project.",
+    "journey": "The first versions of Jarvis were simple — recognizing speech and replying back using Python libraries. With limited technical knowledge at that time, and without today’s accessible AI tools, I still managed to showcase Jarvis to my teachers. Unfortunately, I couldn’t preserve those early versions, but they marked the foundation of my journey.",
+    "growth": "As I entered college, I explored new technologies and concepts I didn’t even know existed back in school. With each new learning, I tried to integrate more features into Jarvis, from NLP to automation and face recognition.",
+    "current": "Now, I’m completely restructuring Jarvis with a new architecture — rebuilding it with stronger capabilities, practical use cases, and a vision to make it a truly smart personal assistant."
+  }
+}
